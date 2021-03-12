@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="60925" started-at="2021-03-11T22:43:28 EST" finished-at="2021-03-11T22:44:29 EST">
+  <suite name="Suite1" duration-ms="32663" started-at="2021-03-11T22:56:18 EST" finished-at="2021-03-11T22:56:51 EST">
     <groups>
     </groups>
-    <test name="Regression1" duration-ms="60925" started-at="2021-03-11T22:43:28 EST" finished-at="2021-03-11T22:44:29 EST">
+    <test name="Regression1" duration-ms="32663" started-at="2021-03-11T22:56:18 EST" finished-at="2021-03-11T22:56:51 EST">
       <class name="testcases.HomePageTest">
-        <test-method status="PASS" signature="ExtentReportConfiguration()[pri:0, instance:testcases.HomePageTest@7a3d45bd]" name="ExtentReportConfiguration" is-config="true" duration-ms="182" started-at="2021-03-11T22:43:28 EST" finished-at="2021-03-11T22:43:29 EST">
+        <test-method status="PASS" signature="ExtentReportConfiguration()[pri:0, instance:testcases.HomePageTest@7a3d45bd]" name="ExtentReportConfiguration" is-config="true" duration-ms="203" started-at="2021-03-11T22:56:18 EST" finished-at="2021-03-11T22:56:18 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExtentReportConfiguration -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcases.HomePageTest@7a3d45bd]" name="beforeClass" is-config="true" duration-ms="7050" started-at="2021-03-11T22:43:29 EST" finished-at="2021-03-11T22:43:36 EST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcases.HomePageTest@7a3d45bd]" name="beforeClass" is-config="true" duration-ms="7111" started-at="2021-03-11T22:56:18 EST" finished-at="2021-03-11T22:56:25 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="FAIL" signature="searchAnyItem()[pri:1, instance:testcases.HomePageTest@7a3d45bd]" name="searchAnyItem" duration-ms="5902" started-at="2021-03-11T22:43:36 EST" finished-at="2021-03-11T22:43:42 EST">
+        <test-method status="FAIL" signature="searchAnyItem()[pri:1, instance:testcases.HomePageTest@7a3d45bd]" name="searchAnyItem" duration-ms="5977" started-at="2021-03-11T22:56:25 EST" finished-at="2021-03-11T22:56:31 EST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected ["fire extinguishers"] but found ["fire extinguisher"]]]>
@@ -63,7 +63,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchAnyItem -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.HomePageTest@7a3d45bd]" name="tearDown" is-config="true" duration-ms="1171" started-at="2021-03-11T22:43:42 EST" finished-at="2021-03-11T22:43:43 EST">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.HomePageTest@7a3d45bd]" name="tearDown" is-config="true" duration-ms="1331" started-at="2021-03-11T22:56:31 EST" finished-at="2021-03-11T22:56:33 EST">
           <params>
             <param index="0">
               <value>
@@ -74,25 +74,25 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases.HomePageTest@7a3d45bd]" name="afterClass" is-config="true" duration-ms="3870" started-at="2021-03-11T22:43:43 EST" finished-at="2021-03-11T22:43:47 EST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases.HomePageTest@7a3d45bd]" name="afterClass" is-config="true" duration-ms="1409" started-at="2021-03-11T22:56:33 EST" finished-at="2021-03-11T22:56:34 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- testcases.HomePageTest -->
       <class name="testcases.LoginPageTest">
-        <test-method status="PASS" signature="ExtentReportConfiguration()[pri:0, instance:testcases.LoginPageTest@1e7c7811]" name="ExtentReportConfiguration" is-config="true" duration-ms="1" started-at="2021-03-11T22:43:29 EST" finished-at="2021-03-11T22:43:29 EST">
+        <test-method status="PASS" signature="ExtentReportConfiguration()[pri:0, instance:testcases.LoginPageTest@1e7c7811]" name="ExtentReportConfiguration" is-config="true" duration-ms="0" started-at="2021-03-11T22:56:18 EST" finished-at="2021-03-11T22:56:18 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExtentReportConfiguration -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.LoginPageTest@1e7c7811]" name="setUp" is-config="true" duration-ms="5900" started-at="2021-03-11T22:43:47 EST" finished-at="2021-03-11T22:43:53 EST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.LoginPageTest@1e7c7811]" name="setUp" is-config="true" duration-ms="6478" started-at="2021-03-11T22:56:34 EST" finished-at="2021-03-11T22:56:41 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifySignInLabel()[pri:1, instance:testcases.LoginPageTest@1e7c7811]" name="verifySignInLabel" duration-ms="286" started-at="2021-03-11T22:43:53 EST" finished-at="2021-03-11T22:43:53 EST">
+        <test-method status="PASS" signature="verifySignInLabel()[pri:1, instance:testcases.LoginPageTest@1e7c7811]" name="verifySignInLabel" duration-ms="275" started-at="2021-03-11T22:56:41 EST" finished-at="2021-03-11T22:56:41 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignInLabel -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.LoginPageTest@1e7c7811]" name="tearDown" is-config="true" duration-ms="100" started-at="2021-03-11T22:43:53 EST" finished-at="2021-03-11T22:43:53 EST">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.LoginPageTest@1e7c7811]" name="tearDown" is-config="true" duration-ms="106" started-at="2021-03-11T22:56:41 EST" finished-at="2021-03-11T22:56:41 EST">
           <params>
             <param index="0">
               <value>
@@ -103,11 +103,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="userSignIn()[pri:2, instance:testcases.LoginPageTest@1e7c7811]" name="userSignIn" duration-ms="33844" started-at="2021-03-11T22:43:53 EST" finished-at="2021-03-11T22:44:27 EST">
+        <test-method status="PASS" signature="userSignIn()[pri:2, instance:testcases.LoginPageTest@1e7c7811]" name="userSignIn" duration-ms="7075" started-at="2021-03-11T22:56:41 EST" finished-at="2021-03-11T22:56:48 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userSignIn -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.LoginPageTest@1e7c7811]" name="tearDown" is-config="true" duration-ms="133" started-at="2021-03-11T22:44:27 EST" finished-at="2021-03-11T22:44:27 EST">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.LoginPageTest@1e7c7811]" name="tearDown" is-config="true" duration-ms="96" started-at="2021-03-11T22:56:48 EST" finished-at="2021-03-11T22:56:48 EST">
           <params>
             <param index="0">
               <value>
@@ -118,11 +118,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="userSignOut()[pri:3, instance:testcases.LoginPageTest@1e7c7811]" name="userSignOut" duration-ms="1368" started-at="2021-03-11T22:44:27 EST" finished-at="2021-03-11T22:44:28 EST">
+        <test-method status="PASS" signature="userSignOut()[pri:3, instance:testcases.LoginPageTest@1e7c7811]" name="userSignOut" duration-ms="1297" started-at="2021-03-11T22:56:48 EST" finished-at="2021-03-11T22:56:49 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userSignOut -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.LoginPageTest@1e7c7811]" name="tearDown" is-config="true" duration-ms="81" started-at="2021-03-11T22:44:28 EST" finished-at="2021-03-11T22:44:28 EST">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.LoginPageTest@1e7c7811]" name="tearDown" is-config="true" duration-ms="63" started-at="2021-03-11T22:56:49 EST" finished-at="2021-03-11T22:56:50 EST">
           <params>
             <param index="0">
               <value>
@@ -133,7 +133,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.LoginPageTest@1e7c7811]" name="tearDown" is-config="true" duration-ms="920" started-at="2021-03-11T22:44:28 EST" finished-at="2021-03-11T22:44:29 EST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.LoginPageTest@1e7c7811]" name="tearDown" is-config="true" duration-ms="1135" started-at="2021-03-11T22:56:50 EST" finished-at="2021-03-11T22:56:51 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

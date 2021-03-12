@@ -27,7 +27,7 @@ import testutils.Screenshot;
 public class LoginPageTest extends BaseClass {
 	LoginPage loginPage;
 	// Create global variable which will be used in all method
-	ExtentHtmlReporter htmlreporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "\\Reports\\ManishAutomation1.html");
+	ExtentHtmlReporter htmlreporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "\\Reports\\LoginPageReport.html");
 	// Create object of ExtentReports class- This is main class which will create report
 	ExtentReports extent = new ExtentReports();
 	ExtentTest logger;

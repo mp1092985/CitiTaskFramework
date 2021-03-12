@@ -29,7 +29,7 @@ public class HomePageTest extends BaseClass {
 	HomePage homePage;
 	String itemName;
 	ExtentHtmlReporter htmlreporter = new ExtentHtmlReporter(
-			System.getProperty("user.dir") + "\\Reports\\ManishAutomation1.html");
+			System.getProperty("user.dir") + "\\Reports\\HomePageReport.html");
 	// Create object of ExtentReports class- This is main class which will create
 	// report
 	ExtentReports extent = new ExtentReports();
