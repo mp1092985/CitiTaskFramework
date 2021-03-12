@@ -14,5 +14,12 @@ Used below tools/technology for the project:
 
 
 • To run the code, you can run through testng.XML as a test suite
+• Extent Report you can find in project root directory in Reports folder 
 
-Extent Report you can find in project root directory in Reports folder 
+
+Please note : I have observed that if we run login test multiple times at a time, then Amazon will required to respond Sign-in attempt approval email to complete the login, 
+I have not handled this as part of this frame work design.
+So request you if needed please use below test email credentials to login to the email to approve the login request : 
+gmail:   	mp1092985@gmail.com
+Password:	Test!@#$
+  
