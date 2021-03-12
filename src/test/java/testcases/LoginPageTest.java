@@ -54,22 +54,28 @@ public class LoginPageTest extends BaseClass {
 		htmlreporter.config().setTheme(Theme.STANDARD);
 	}
 
-	// validation user is not signed in
+	// validation of "Hello, Sign in" text is present when user is not signed in
 	@Test(priority = 1)
 	public void verifySignInLabel() {
 		logger = extent.createTest("verifySignInLabel");
 		Assert.assertTrue(loginPage.validateHelloSignInLabel());
-		logger.log(Status.PASS, MarkupHelper.createLabel("Test Case Passed is passTest", ExtentColor.GREEN));
+		logger.log(Status.PASS, MarkupHelper.createLabel("Test Case is Passed", ExtentColor.GREEN));
 	}
 
 	// signing in
 	@Test(priority = 2)
 	public void userSignIn() {
 		logger = extent.createTest("userSignIn");
+		
+		//click on sign in
 		loginPage.clickOnSignIn();
+		
+		//login -- use credentials from properties file
 		loginPage.signIn(prop.getProperty("username"), prop.getProperty("password"));
+		
+		//verify user is signed in by checking user name on the home page after user is signed in
 		Assert.assertEquals(loginPage.userNameLabel(prop.getProperty("user")), "Hello, " + prop.getProperty("user"));
-		logger.log(Status.PASS, MarkupHelper.createLabel("Test Case Passed is passTest", ExtentColor.GREEN));
+		logger.log(Status.PASS, MarkupHelper.createLabel("Test Case is Passed", ExtentColor.GREEN));
 	}
 
 	// signing out
@@ -77,12 +83,14 @@ public class LoginPageTest extends BaseClass {
 	public void userSignOut() {
 		logger = extent.createTest("userSignOut");
 		loginPage.clickOnSignIn();
+		
+		//click on sign out button
 		loginPage.signOut();
 		Assert.assertTrue(loginPage.verifySignOut());
-		logger.log(Status.PASS, MarkupHelper.createLabel("Test Case Passed is passTest", ExtentColor.GREEN));
+		logger.log(Status.PASS, MarkupHelper.createLabel("Test Case is Passed", ExtentColor.GREEN));
 	}
 
-	// This will run after testcase and it will capture screenshot and add in report
+	// This will run after @test method and it will capture screenshot if the test method is getting failed and it will also add it in report
 	@AfterMethod
 	public void tearDown(ITestResult result) throws IOException {
 

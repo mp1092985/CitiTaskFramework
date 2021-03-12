@@ -13,6 +13,7 @@ import base.BaseClass;
 
 public class LoginPage extends BaseClass{
 	
+	//locate element with "Hello, Sign in" text
 	@FindBy(xpath = "//span[contains(text(),'Hello, Sign in')]")
 	List<WebElement> signInLink;
 	
@@ -44,7 +45,7 @@ public class LoginPage extends BaseClass{
 	}
 	
 	
-	//Hello  sign in button
+	//"Hello, Sign in" text is present on the page when user is not signed in
 	public boolean validateHelloSignInLabel(){
 		if(signInLink.size()>0) {
 			return true;
@@ -82,7 +83,7 @@ public class LoginPage extends BaseClass{
     	js.executeScript("arguments[0].click();", signOutBtn);	    	
 	}
 	
-	//signout verification
+	//signout verification - when you sign out we should see the login text box
 	public boolean verifySignOut() {
 		return userName.isDisplayed();
 	}

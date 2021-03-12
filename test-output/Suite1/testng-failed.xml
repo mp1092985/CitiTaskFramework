@@ -5,8 +5,8 @@
     <classes>
       <class name="testcases.HomePageTest">
         <methods>
-          <include name="searchAnyItem"/>
           <include name="beforeClass"/>
+          <include name="searchItemAndVerifySearchResult"/>
           <include name="ExtentReportConfiguration"/>
           <include name="afterClass"/>
           <include name="tearDown"/>

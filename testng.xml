@@ -3,7 +3,7 @@
   <test name="Regression1">
     <classes>
       <class name="testcases.HomePageTest"/>
-      <class name="testcases.LoginPageTest"/>
+<!--  <class name="testcases.LoginPageTest"/> -->
     </classes>
   </test>
 </suite>
